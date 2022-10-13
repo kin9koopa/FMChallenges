@@ -1,0 +1,89 @@
+main {
+  align-items: center;
+  background: hsl(30deg, 38%, 92%);
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
+}
+main #sct-perfume .card {
+  border-radius: 20px;
+}
+main #sct-perfume .card .card-img-top {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+main #sct-perfume .card .card-body .card-subtitle {
+  color: hsl(228deg, 12%, 48%);
+  font-size: 1.25rem;
+  letter-spacing: 0.4rem;
+  padding: 10px 0;
+}
+main #sct-perfume .card .card-body .card-title {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 3rem;
+  inline-size: 420px;
+  padding-bottom: 20px;
+}
+main #sct-perfume .card .card-body .card-text {
+  color: hsl(228deg, 12%, 48%);
+  font-size: 1.125rem;
+  inline-size: 330px;
+}
+main #sct-perfume .card .card-body .price {
+  color: #3D8168;
+  font-family: "Fraunces", serif;
+  font-size: 2.75rem;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+main #sct-perfume .card .card-body .price span:last-child {
+  color: hsl(228deg, 12%, 48%);
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  text-decoration: line-through;
+}
+main #sct-perfume .card .card-body .btn {
+  align-items: center;
+  background: #3D8168;
+  color: hsl(0deg, 0%, 100%);
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 15px 0;
+}
+
+@media (min-width: 992px) {
+  main #sct-perfume .card-img-top {
+    border-top-right-radius: 0 !important;
+    border-bottom-left-radius: 20px;
+    height: 75vh;
+  }
+  main #sct-perfume .card {
+    align-items: center;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  main #sct-perfume .card .card-body {
+    background: hsl(0deg, 0%, 100%);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 75vh;
+    width: 100%;
+  }
+  main #sct-perfume .card .card-body .card-subtitle {
+    padding: 20px 0;
+  }
+  main #sct-perfume .card .card-body .card-title {
+    inline-size: 350px;
+    padding-bottom: 25px;
+  }
+  main #sct-perfume .card .card-body .card-text {
+    inline-size: 300px;
+  }
+}/*# sourceMappingURL=base.css.map */
