@@ -1,0 +1,59 @@
+main {
+  background: hsl(217deg, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  height: 100vh;
+  width: 100%;
+}
+main #sct-nft-card {
+  align-items: center;
+  color: hsl(0deg, 0%, 100%);
+  display: flex;
+  justify-content: center;
+}
+main #sct-nft-card .card {
+  background: hsl(216deg, 50%, 16%);
+  border-radius: 1.5rem;
+  padding: 2rem;
+}
+main #sct-nft-card .card .card-img-top {
+  border-radius: 1rem;
+}
+main #sct-nft-card .card .card-body {
+  padding: 1.5rem 0;
+}
+main #sct-nft-card .card .card-body .card-title {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+main #sct-nft-card .card .card-body .card-text {
+  color: hsl(215deg, 51%, 70%);
+  font-size: 1.275rem;
+}
+main #sct-nft-card .card .card-body .crypto-days {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+main #sct-nft-card .card .card-body .crypto-days .eth {
+  color: hsl(178deg, 100%, 50%);
+  font-size: 1.275rem;
+  font-weight: 600;
+}
+main #sct-nft-card .card .card-body .crypto-days .eth .fa-sort {
+  font-size: 1.875rem;
+  padding-right: 10px;
+}
+main #sct-nft-card .card .card-body .crypto-days .days-left {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+}
+main #sct-nft-card .card .card-body .crypto-days .days-left .fa-clock-o {
+  padding-right: 0.75rem;
+}
+main #sct-nft-card .card .card-body .footer-card {
+  align-items: center;
+  display: flex;
+}/*# sourceMappingURL=base.css.map */
